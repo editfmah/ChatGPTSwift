@@ -2859,6 +2859,7 @@ public enum Components {
                 /// - Remark: Generated from `#/components/schemas/CreateChatCompletionRequest/model/value2`.
                 @frozen public enum Value2Payload: String, Codable, Hashable, Sendable {
                     case gpt_hyphen_4o = "gpt-4o"
+                    case gpt_hyphen_4o_mini = "gpt-4o-mini"
                     case gpt_hyphen_4o_hyphen_2024_hyphen_05_hyphen_13 = "gpt-4o-2024-05-13"
                     case gpt_hyphen_4_hyphen_turbo = "gpt-4-turbo"
                     case gpt_hyphen_4_hyphen_turbo_hyphen_2024_hyphen_04_hyphen_09 = "gpt-4-turbo-2024-04-09"
